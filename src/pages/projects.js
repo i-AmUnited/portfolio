@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="">
       <p className="ubuntu-font font-bold mb-2">Featured projects:</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="relative rounded-md border border-[#262626] overflow-hidden">
+        <a href="https://cloudvantage.com.ng/" className="relative rounded-md border border-[#262626] overflow-hidden">
           <img src={cloudvantage} alt="" className="h-42 w-full object-cover" />
           <div className="p-4 absolute bottom-0 h-1/2 w-full bg-gradient-to-t from-black to-black/0 flex items-end">
             <div className="flex justify-between w-full items-end">
@@ -21,8 +21,8 @@ const Projects = () => {
               <img src={clickICon} alt="" />
             </div>
           </div>
-        </div>
-        <div className="relative rounded-md border border-[#262626] overflow-hidden">
+        </a>
+        <a href="https://mosquepay.vercel.app/" className="relative rounded-md border border-[#262626] overflow-hidden">
           <img src={mosquepay} alt="" className="h-42 w-full object-cover" />
           <div className="p-4 absolute bottom-0 h-1/2 w-full bg-gradient-to-t from-black to-black/0 flex items-end">
             <div className="flex justify-between w-full items-end">
@@ -35,8 +35,8 @@ const Projects = () => {
               <img src={clickICon} alt="" />
             </div>
           </div>
-        </div>
-        <div className="relative rounded-md border border-[#262626] overflow-hidden">
+        </a>
+        <a href="https://trim-tech.vercel.app/" className="relative rounded-md border border-[#262626] overflow-hidden">
           <img src={rapidStylers} alt="" className="h-42 w-full object-cover" />
           <div className="p-4 absolute bottom-0 h-1/2 w-full bg-gradient-to-t from-black to-black/0 flex items-end">
             <div className="flex justify-between w-full items-end">
@@ -49,7 +49,7 @@ const Projects = () => {
               <img src={clickICon} alt="" />
             </div>
           </div>
-        </div>
+        </a>
         {/* <div className="relative rounded-md border border-[#262626] overflow-hidden">
           <img src={rapidStylers} alt="" className="h-52 w-full object-cover" />
           <div className="p-4 absolute top-0 h-full w-full bg-gradient-to-t from-black to-black/40 flex items-end">

@@ -11,12 +11,12 @@ const Testimonials = () => {
               result exceeded our expectations.
             </div>
             <div className="flex items-center gap-4">
-              <div className="size-10 rounded-full flex items-center justify-center bg-white/5 border border-white/5">
-                <img alt="" src={userIcon} className="h-4" />
-              </div>
+            <div className="size-10 rounded-full flex items-center justify-center bg-[#c4c4c4] border-[3px] border-[#262626]">
+                  
+                  </div>
               <div className="grid">
-                <span>First name, Last name</span>
-                <span className="text-sm opacity-50">CEO, Company name</span>
+                <span>Muhideen Ashiru</span>
+                <span className="text-sm opacity-50">CEO, Cloudvantage</span>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="lg:col-span-3 bg-black/10 border border-white/5 rounded-md p-4 md:p-6 grid content-between">
+          {/* <div className="lg:col-span-3 bg-black/10 border border-white/5 rounded-md p-4 md:p-6 grid content-between">
             <div className="mb-8 leading-6">
               Tobi did an amazing job designing our website. His creativity and
               attention to detail brought our vision to life, and the final
@@ -60,7 +60,7 @@ const Testimonials = () => {
                 <span className="text-sm opacity-50">CEO, Company name</span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     );

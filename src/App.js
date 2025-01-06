@@ -29,9 +29,9 @@ function App() {
             </div>
           </div>
           <div className="flex text-xs bg-gray-200 text-[#262626] px-4 py-3 rounded divide-x divide-[#26262632] w-fit">
-            <div className="pr-4">LinkedIn</div>
-            <div className="px-4">Email</div>
-            <div className="pl-4">Download resume</div>
+            <a href="https://www.linkedin.com/in/oluwatobi-amusa/" target="blank" className="pr-4">LinkedIn</a>
+            <a href="mailto:tobiamusa94@gmail.com" className="px-4">Email</a>
+            <a href="https://docs.google.com/document/d/15-s7TEu5J8uZdNAbPoIKIQtS_OE2aiPGJ8xlHDe4STs/edit?tab=t.0" target="blank" className="pl-4">Resume</a>
           </div>
         </div>
         <Home />
